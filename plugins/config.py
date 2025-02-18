@@ -11,7 +11,7 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7766828716:AAETsfHL3qw7pE458coRwOY3R8i3_QxiE5Q")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8108185474:AAHhUu6H9BeEp0ZHN46V_sjvK2FtViwMUYk")
 
     API_ID = int(os.environ.get("API_ID", "26775695"))
 
@@ -43,7 +43,7 @@ class Config(object):
 
     PROCESS_MAX_TIMEOUT = 0
 
-    DEF_WATER_MARK_FILE = "Use this bot @@longtiandi_url_uploader_bot"
+    DEF_WATER_MARK_FILE = "Use this bot @uploader_yang_bot"
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://pangphu9:0pSRO3UHIoH5ouAx@cluster0.ipqp2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
@@ -57,7 +57,7 @@ class Config(object):
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002296873835")
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "longtiandi_url_uploader_bot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "uploader_yang_bot")
 
     PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
 
